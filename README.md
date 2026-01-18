@@ -72,8 +72,8 @@ The SAGE dataset is a weekly, student-level time-series dataset designed to capt
 - Python
 - Pandas
 - Jupyter Notebook
-- Scikit-learn (planned)
-- Streamlit (planned)
+- Scikit-learn 
+- Streamlit
 
 ---
 
