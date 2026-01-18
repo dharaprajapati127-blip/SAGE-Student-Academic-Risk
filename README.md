@@ -23,17 +23,37 @@ Faculty members remain central to all decisions, with AI serving as an assistive
 
 ## 📊 Dataset Overview
 
-Each row represents a student record with the following features:
+student_id
+week_number
 
-- Attendance percentage
-- Internal assessment marks
-- Assignment submission delay
-- Weekly study hours
-- Self-reported stress level (1–5)
-- Self-reported sleep quality (1–5)
+avg_score
+score_delta
+score_variance
+assignment_completion_rate
+late_submission_count
 
-The dataset is currently **synthetic and simulated** to model realistic academic patterns while preserving privacy.
+attendance_rate
+attendance_delta
+lms_activity_index
+participation_score
+engagement_irregularity
 
+stress_index
+workload_pressure
+sleep_irregularity_proxy
+wellbeing_delta
+
+rolling_avg_score_3w
+attendance_trend_slope
+engagement_drop_rate
+stress_acceleration
+risk_velocity
+
+academic_risk_level
+burnout_risk_score
+alert_triggered
+
+The SAGE dataset is a weekly, student-level time-series dataset designed to capture academic performance, engagement behavior, and well-being proxy signals. It emphasizes trend-based features and explainable indicators to enable early detection of academic risk and burnout while supporting human-in-the-loop faculty decision making.
 ---
 
 ## 🧠 Current Project Stage
