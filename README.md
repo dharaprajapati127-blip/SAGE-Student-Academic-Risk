@@ -1,10 +1,6 @@
-# SAGE – Student Academic Growth & Early-Risk Intelligence System
+SAGE is a faculty-assisted AI early-warning and decision-support system designed to identify early academic risk and burnout indicators in university students.
 
-SAGE is an AI-driven early warning system designed to identify **academic risk and burnout indicators** in university students before visible failure occurs.
-
-The project focuses on detecting **silent strugglers** by analyzing a combination of academic performance, engagement behavior, and well-being signals.
-
----
+The system analyzes academic performance, engagement behavior, and well-being signals to generate explainable risk alerts that support timely faculty intervention — with a strong emphasis on human-in-the-loop decision-making.
 
 ## 🎯 Project Objectives
 
@@ -14,6 +10,16 @@ The project focuses on detecting **silent strugglers** by analyzing a combinatio
 - Support early intervention by educators and counselors
 
 ---
+## 🏗️ System Perspective
+
+SAGE is designed as a decision-support system rather than a standalone prediction model.
+
+The system consists of:
+- An intelligence layer for academic and burnout risk prediction
+- A faculty alert layer that prioritizes students based on risk severity
+- A human-in-the-loop intervention workflow to ensure ethical and responsible use
+
+Faculty members remain central to all decisions, with AI serving as an assistive tool.
 
 ## 📊 Dataset Overview
 
@@ -33,11 +39,11 @@ The dataset is currently **synthetic and simulated** to model realistic academic
 ## 🧠 Current Project Stage
 
 ✅ Dataset design and validation  
-✅ Initial data loading using Pandas  
-⬜ Feature engineering  
-⬜ Machine learning model development  
-⬜ Explainability (SHAP)  
-⬜ Interactive dashboard  
+✅ Initial machine learning model (baseline)  
+⬜ Time-based student risk tracking  
+⬜ Faculty alert logic and intervention workflow  
+⬜ Interactive faculty dashboard  
+⬜ Explainable AI integration (SHAP)  
 
 ---
 
