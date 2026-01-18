@@ -53,7 +53,7 @@ The dataset is currently **synthetic and simulated** to model realistic academic
 
 ## 🚀 Getting Started
 
+## 👤 Author
 
-
-df = pd.read_csv("student_risk_data.csv")
-df
+Dhara  
+B.Tech Student | Aspiring Data Scientist  
